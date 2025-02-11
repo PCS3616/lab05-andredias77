@@ -14,7 +14,7 @@ FATORIAL K /0000
          MM N_AUX
          JP /0A16
          LD AUXILIAR
-         MM /0102
+         MM RES
          RS /0A10
 
 
@@ -27,3 +27,9 @@ N_AUX    K /0000
 
     @ /0020
 UM       K /0001
+
+    @ /0100
+N        K /0000
+
+    @ /0102
+RES      K /0000
