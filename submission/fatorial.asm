@@ -9,6 +9,7 @@ FATORIAL K /0000
          JZ /0A26
          LD AUXILIAR
          ML N_AUX
+         MM AUXILIAR
          LD N_AUX
          SB UM
          MM N_AUX
